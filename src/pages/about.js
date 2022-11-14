@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
 
-export default function Home() {
+const about = ({ children }) => {
   return (
     <Layout>
-      <h1>HOMEPAGE</h1>
+      <h1>ABOUT</h1>
     </Layout>
   )
 }
+export default about
