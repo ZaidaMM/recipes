@@ -351,10 +351,21 @@ form > *:last-child {
   justify-content: space-between;
   align-items: center;
 }
-.nav-header img {
+/* .nav-header img {
   width: 200px;
   margin-left: -6px;
   margin-bottom: -9px;
+} */
+.logo {
+  font-style: normal;
+  color: var(--black);
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-left: -6px;
+}
+.nav-header span {
+  color: var(--primary-600);
 }
 .nav-btn {
   padding: 0.15rem 0.75rem;
