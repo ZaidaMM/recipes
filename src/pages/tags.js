@@ -15,7 +15,7 @@ const Tags = ({ data }) => {
               <Link to={`/${text}`} key={value} className="tag">
                 <h5>{text}</h5>
                 <p>
-                  {value} {value == 1 ? "recipe" : "recipes"}
+                  {value} {value === 1 ? "recipe" : "recipes"}
                 </p>
               </Link>
             )
